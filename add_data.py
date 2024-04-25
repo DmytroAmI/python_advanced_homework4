@@ -7,8 +7,9 @@ def add_data_to_db(db):
 
     while True:
         cursor.execute(
-            "INSERT INTO costs_and_profits(purpose, amount, payment_date) VALUES (?, ?, ?)",
-            ((input("Payment purpose: ")), (input("Payment amount: ")), (input("Payment date: ")))
+            "INSERT INTO costs_and_profits(purpose, amount, payment_date, type) VALUES (?, ?, ?, ?)",
+            ((input("Payment purpose: ")), (input("Payment amount: ")),
+             (input("Payment date: ")), (input("Type - income or cost: ")))
         )
         choice = input("Add more?(y/n): ").strip().lower()
         if choice == "y":
