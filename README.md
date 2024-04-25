@@ -10,7 +10,7 @@
 ### Завдання 4
 Створіть агрегатні функції для підрахунку загальної кількості  витрат i прибуткiв за місяць. Забезпечте відповідний інтерфейс користувача.
 ***
-### Завдання 5
+### Завдання 5 (не зрозумів)
 Create an Exchange Rates To USD db using API Monobank (api.monobank.ua). Do requests via request lib, parse results, write it into db. (3 examples required)
 Example:
 Table - Exchange Rate To USD:
